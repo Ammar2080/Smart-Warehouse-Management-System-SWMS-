@@ -4,12 +4,12 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace WarehouseManagement.Presentation.Forms
 {
-    public partial class MainForm : KryptonForm
+    public partial class StockAdjustmentForm : KryptonForm
     {
-        public MainForm()
+        public StockAdjustmentForm()
         {
             InitializeComponent();
-            this.Text = "Smart Warehouse Management System (SWMS)";
+            this.Text = "Stock Adjustment";
         }
     }
 }

@@ -57,11 +57,131 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\OperationalForms.cs">
+    <Compile Include="Forms\DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AllFormsPlaceholder.cs">
+    <Compile Include="Forms\DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductsForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductsForm.Designer.cs">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductDetailsForm.Designer.cs">
+      <DependentUpon>ProductDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CategoriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoriesForm.Designer.cs">
+      <DependentUpon>CategoriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UnitsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UnitsForm.Designer.cs">
+      <DependentUpon>UnitsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SuppliersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SuppliersForm.Designer.cs">
+      <DependentUpon>SuppliersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomersForm.Designer.cs">
+      <DependentUpon>CustomersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WarehousesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WarehousesForm.Designer.cs">
+      <DependentUpon>WarehousesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockInForm.Designer.cs">
+      <DependentUpon>StockInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockOutForm.Designer.cs">
+      <DependentUpon>StockOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockTransferForm.Designer.cs">
+      <DependentUpon>StockTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockAdjustmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockAdjustmentForm.Designer.cs">
+      <DependentUpon>StockAdjustmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InventoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InventoryForm.Designer.cs">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LowStockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LowStockForm.Designer.cs">
+      <DependentUpon>LowStockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersForm.Designer.cs">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RolesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RolesForm.Designer.cs">
+      <DependentUpon>RolesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PermissionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PermissionsForm.Designer.cs">
+      <DependentUpon>PermissionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportsForm.Designer.cs">
+      <DependentUpon>ReportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AuditLogsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AuditLogsForm.Designer.cs">
+      <DependentUpon>AuditLogsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BackupRestoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BackupRestoreForm.Designer.cs">
+      <DependentUpon>BackupRestoreForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

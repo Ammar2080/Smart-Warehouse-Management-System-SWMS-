@@ -1,6 +1,6 @@
 namespace WarehouseManagement.Presentation.Forms
 {
-    partial class MainForm
+    partial class SuppliersForm
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -19,9 +19,9 @@ namespace WarehouseManagement.Presentation.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "MainForm";
+            this.Name = "SuppliersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Smart Warehouse Management System (SWMS)";
+            this.Text = "Suppliers Management";
             this.ResumeLayout(false);
         }
     }
