@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\WarehouseManagement.Models.csproj" />
+    <ProjectReference Include="..\DataAccess\WarehouseManagement.DataAccess.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\WarehouseManagement.Models.csproj" />
+    <ProjectReference Include="..\DataAccess\WarehouseManagement.DataAccess.csproj" />
+    <ProjectReference Include="..\BusinessLogic\WarehouseManagement.BusinessLogic.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\packages\Krypton.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
