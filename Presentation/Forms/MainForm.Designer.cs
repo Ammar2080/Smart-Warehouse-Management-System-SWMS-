@@ -37,9 +37,9 @@ namespace WarehouseManagement.Presentation.Forms
             this.ClientSize = new System.Drawing.Size(1008, 729);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Text = "Smart Warehouse Management System (SWMS)";
             this.ResumeLayout(false);
-
         }
 
         #endregion

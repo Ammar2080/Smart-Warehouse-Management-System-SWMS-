@@ -30,11 +30,10 @@ namespace WarehouseManagement.Presentation.Forms
             try
             {
                 var products = _productService.GetAllProducts();
-                // Bind to DataGridView or UI controls
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error Loading Products", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(ex.Message, "Error Loading Products", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

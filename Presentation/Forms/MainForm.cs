@@ -16,35 +16,15 @@ namespace WarehouseManagement.Presentation.Forms
             SetupUserSession();
         }
 
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            
-            // MainForm properties
-            this.ClientSize = new System.Drawing.Size(1024, 768);
-            this.Name = "MainForm";
-            this.StartPosition = FormStartPosition.CenterScreen;
-            this.WindowState = FormWindowState.Maximized;
-            this.Text = $"Smart Warehouse Management System (SWMS) - User: {_currentUser?.FullName} [{_currentUser?.RoleName}]";
-
-            this.ResumeLayout(false);
-        }
-
         private void SetupUserSession()
         {
-            // Apply role-based permissions to menu/buttons here if needed
+            this.Text = $"Smart Warehouse Management System (SWMS) - User: {_currentUser?.FullName} [{_currentUser?.RoleName}]";
         }
 
         private void MenuProducts_Click(object sender, EventArgs e)
         {
-            // Open ProductsForm
-            // ProductsForm frm = new ProductsForm();
-            // frm.ShowDialog();
-        }
-
-        private void MenuWarehouses_Click(object sender, EventArgs e)
-        {
-            // Open WarehousesForm
+            ProductsForm frm = new ProductsForm();
+            frm.ShowDialog();
         }
     }
 }
