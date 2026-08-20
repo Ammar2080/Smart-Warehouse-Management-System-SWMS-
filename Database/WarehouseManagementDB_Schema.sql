@@ -210,3 +210,32 @@ CREATE TABLE AuditLogs (
     CreatedAt DATETIME DEFAULT GETDATE()
 );
 GO
+
+-- =====================================================
+-- Seed Data for Initial Testing (SQL Server 2022 Compatible)
+-- =====================================================
+
+INSERT INTO Roles (RoleName, Description) VALUES 
+(N'مدير النظام', N'صلاحيات كاملة على كافة أقسام النظام'),
+(N'أمين مستودع', N'إدارة حركة المخزون والإدخال والصرف');
+GO
+
+INSERT INTO Users (Username, PasswordHash, FullName, Email, RoleId, IsActive) VALUES 
+('admin', '123456', N'مدير النظام العام', 'admin@swms.local', 1, 1),
+('storekeeper', '123456', N'أحمد أمين المخزن', 'store@swms.local', 2, 1);
+GO
+
+INSERT INTO Categories (CategoryName, Description) VALUES 
+(N'إلكترونيات', N'أجهزة ومعدات إلكترونية'),
+(N'أدوات مكتبية', N'مستلزمات ومطبوعات مكاتب');
+GO
+
+INSERT INTO Units (UnitName, Abbreviation) VALUES 
+(N'قطعة', N'Pcs'),
+(N'صندوق', N'Box');
+GO
+
+INSERT INTO Warehouses (WarehouseCode, WarehouseName, Location, ManagerName, Phone) VALUES 
+('WH-01', N'المستودع الرئيسي - الرياض', N'المنطقة الصناعية الأولى', N'محمد خالد', '0501234567'),
+('WH-02', N'مستودع الفرع - جدة', N'حي الروابي', N'سعيد أحمد', '0559876543');
+GO
