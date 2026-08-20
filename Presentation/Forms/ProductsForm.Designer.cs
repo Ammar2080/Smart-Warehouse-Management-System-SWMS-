@@ -42,16 +42,16 @@ namespace WarehouseManagement.Presentation.Forms
             // 
             this.btnAdd.Location = new System.Drawing.Point(20, 12);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(120, 35);
+            this.btnAdd.Size = new System.Drawing.Size(130, 35);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Values.Text = "إضافة منتج جديد";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(155, 12);
+            this.btnRefresh.Location = new System.Drawing.Point(165, 12);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(100, 35);
+            this.btnRefresh.Size = new System.Drawing.Size(110, 35);
             this.btnRefresh.TabIndex = 1;
             this.btnRefresh.Values.Text = "تحديث البيانات";
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
@@ -75,8 +75,10 @@ namespace WarehouseManagement.Presentation.Forms
             this.Controls.Add(this.dgvProducts);
             this.Controls.Add(this.panelTop);
             this.Name = "ProductsForm";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "إدارة المنتجات - نظام المستودعات الذكي";
+            this.Text = "إدارة المنتجات والأصناف";
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelTop)).EndInit();
             this.panelTop.ResumeLayout(false);

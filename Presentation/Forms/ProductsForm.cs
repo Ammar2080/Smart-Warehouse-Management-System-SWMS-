@@ -13,7 +13,15 @@ namespace WarehouseManagement.Presentation.Forms
         {
             InitializeComponent();
             _productService = new ProductService();
+            ApplyArabicSettings();
             LoadProducts();
+        }
+
+        private void ApplyArabicSettings()
+        {
+            this.RightToLeft = RightToLeft.Yes;
+            this.RightToLeftLayout = true;
+            this.Text = "إدارة المنتجات والأصناف - نظام المستودعات الذكي";
         }
 
         private void LoadProducts()
